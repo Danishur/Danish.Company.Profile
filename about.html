@@ -16,23 +16,37 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <ul>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="./index.html">Back</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#values">Values</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+            </div>
+            <div class="toggle-btn" id="toggle-btn">
+                <i title="menu" class="fa-solid fa-bars"></i>
+            </div>
+            <div class="menu">
                 <li><a href="./index.html">Back</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#values">Values</a></li>
                 <li><a href="#team">Team</a></li>
-            </ul>
+            </div>
         </nav>
         <h1>Welcome to Our World</h1>
         <p class="header-subtitle">Where Innovation Meets Passion</p>
+        <script src="about.js"></script>
     </header>
 
     <section class="about" id="about">
         <div class="about-text">
             <h2>Who We Are</h2>
             <p>We are a creative agency driven by the power of technology, design, and creativity. Our vision is to inspire and innovate, transforming ideas into reality.</p>
-            <button class="learn-more-btn">Explore Our Story</button>
+            <a href="#">
+                <button class="learn-more-btn">Explore Our Story</button>
+            </a>
         </div>
 
         <div class="about-image">
