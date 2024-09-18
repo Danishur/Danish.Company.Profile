@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open sans", sans-serif;
+  animation-delay: 0.95s;
+}
+
+body {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+li {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.non {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+.non:hover {
+  color: orange;
+}
+
+.box-image {
+  display: flex;
+  flex-direction: row;
+}
+
+/* HEADER */
+header {
+  position: relative;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.749);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  transition: 0.5s;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 0;
+}
+
+.navbar .toggle-btn {
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  display: none;
+}
+
+.action-btn {
+  background-color: orange;
+  columns: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.8s;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+.action-btn:hover {
+  scale: 1.05;
+  color: #000000;
+  box-shadow: 0 0 8px orange;
+}
+.action-btn:active {
+  scale: 0.95;
+}
+
+a.btn {
+  background-color: rgb(86, 141, 244);
+  columns: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.8s;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+a.btn:hover {
+  color: #fff;
+  box-shadow: 0 0 2px rgb(86, 141, 244);
+  scale: 1.05;
+}
+
+a .btn {
+  transition: 0.6s;
+}
+
+a .btn:hover {
+  color: #fff;
+  scale: 1.05;
+}
+
+.banner {
+  background-image: url("image/dark-wallpapers.avif");
+  min-height: 50vh;
+  color: #fff;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.col-md-4 img {
+  border-radius: 10px;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #000000;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  margin-top: 30px;
+}
+
+.tim img {
+  width: 250px;
+  border: 10px solid #2b2b2bcc;
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.kontak {
+  background: url("image/world.webp") no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+button:hover {
+  scale: 10px;
+}
+
+button:active {
+  scale: 0.95px;
+}
+
+.button button {
+  border-radius: 30px;
+}
+
+.col-md-4.btn a:hover {
+  scale: 10px;
+}
+
+.col-md-4.btn a:active {
+  scale: 0.95px;
+}
+
+i.fa-5x {
+  animation: naikTurun 2s infinite ease-in-out;
+  margin-top: 40px;
+}
+
+.pt-4.service {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+header a {
+  animation: fade-slide 0.7s ease-out;
+}
+
+header li:nth-child(1) {
+  animation: fade-slide 1s ease-out;
+}
+
+header li:nth-child(2) {
+  animation: fade-slide 2s ease-out;
+}
+
+header li:nth-child(3) {
+  animation: fade-slide 3s ease-out;
+}
+
+header li:nth-child(4) {
+  animation: fade-slide 3s ease-out;
+}
+
+header li:nth-child(5) {
+  animation: fade-slide 2s ease-out;
+}
+header li:nth-child(6) {
+  animation: fade-slide 1s ease-out;
+}
+
+.container h4 {
+  animation: fade-slide 2.5s ease-out;
+}
+
+.container h3 {
+  animation: fade-slide 2s ease-out;
+}
+
+.container a button {
+  animation: fade-slide 1.5s ease-out;
+}
+
+@keyframes fade-slide {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes naikTurun {
+  0% {
+    transform: translateY(0); /* Posisi awal */
+  }
+  50% {
+    transform: translateY(-20px); /* Gerakan naik */
+  }
+  100% {
+    transform: translateY(0); /* Kembali ke posisi awal */
+  }
+}
+
+.clearifix {
+  min-height: 70vh;
+  gap: 10px;
+}
+
+.clearifix.pt-5 {
+  gap: 10px;
+}
+
+.clearifix img {
+  border-radius: 10px;
+}
+
+.col-md-4 .card {
+  transition: 0.5s;
+}
+
+.col-md-4 .card:hover {
+  background-color: #f4f4f4;
+  scale: 1.05;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+p {
+  margin: 0;
+}
+
+.icon-contact {
+  display: flex;
+  margin-left: 5px;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  background-color: #000000;
+  margin: 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.icon fa-brands {
+  width: 20px;
+}
+
+.icon a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  text-align: center;
+  border: solid #ffffff;
+  width: 10rem;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgb(49, 48, 48);
+  transition: 0.6s;
+}
+
+.icon a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+.service-vh {
+  min-height: 70vh;
+}
+
+.h2 h2 {
+  margin-top: 30px;
+}
+
+/* DROPDOWN-MENU */
+.menu {
+  position: absolute;
+  right: 2rem;
+  top: 65px;
+  width: 300px;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.614);
+  color: black;
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  display: none;
+  transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.menu.open {
+  height: 340px;
+}
+
+.menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.menu .action-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*  RESPONSIVE */
+@media (max-width: 990px) {
+  .navbar .links,
+  .navbar .action-btn {
+    display: none;
+  }
+
+  .navbar .toggle-btn {
+    display: block;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .row.pt-4 {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .container-fluid.row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .card {
+    width: 50px;
+  }
+
+  .row.pt-4.card {
+    width: 10px;
+  }
+  .icon-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .button-contact {
+    margin-left: 7.2rem;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .banner {
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+  * {
+    align-items: center;
+    /* width: 100%; */
+  }
+  body {
+    align-items: center;
+    width: 100%;
+  }
+  header {
+    z-index: 100;
+    position: fixed;
+  }
+  .icon-contact {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 550px) {
+  * {
+    align-items: center;
+    /* width: 100%; */
+  }
+  body {
+    align-items: center;
+    width: 100%;
+  }
+  header {
+    z-index: 100;
+    position: fixed;
+  }
+  .menu {
+    left: 2rem;
+    width: unset;
+  }
+  .banner {
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+  #portofolio .col-md-4 {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+  }
+  .clearifix img {
+    position: relative;
+    left: 1.7rem;
+    align-items: center;
+    padding: 10px;
+    /* margin-left: 30px; */
+  }
+  .text-about p {
+    text-align: center;
+  }
+  .col-md-4 {
+    padding: 0;
+  }
+}

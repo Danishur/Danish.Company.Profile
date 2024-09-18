@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="image/day.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header> 
+      <div class="navbar">
+        <div class="logo">
+          <a href="#home"><img src="image/day.jpg" /></a>
+          <a href="#home">Danish</a>
+        </div>
+        <ul class="links">
+          <li><a href="#home" class="non">Home</a></li>
+          <li><a href="#service" class="non">Service</a></li>
+          <li><a href="#portofolio " class="non">Portofolio</a></li>
+          <li><a href="#about" class="non">About</a></li>
+          <li><a href="#staff" class="non">Staff</a></li>
+          <li><a href="#contact-us" class="non">Contact Us</a></li>
+        </ul>
+        <a href="#service" class="action-btn">Get Started</a>
+        <div class="toggle-btn" id="toggle-btn">
+          <i title="menu" class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="menu">
+        <li><a href="#home" class="non">Home</a></li>
+        <li><a href="#service" class="non">Service</a></li>
+        <li><a href="#portofolio " class="non">Portofolio</a></li>
+        <li><a href="#about" class="non">About</a></li>
+        <li><a href="#staff" class="non">Staff</a></li>
+        <li><a href="#contact-us" class="non">Contact Us</a></li>
+        <li><a href="#" class="action-btn">Explore</a></li>
+      </div>
+
+      <script src="script.js"></script>
+    </header>
+    <!-- HOME -->
+    <div class="container-fluid banner" id="home">
+      <div class="container text-center">
+        <h4 class="display-6">Welcome to our website</h4>
+        <h3 class="display-1">Hi! Hello</h3>
+        <a href="#service">
+          <button type="button" class="btn btn-danger btn-lg">
+            Check Service
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- SERVICE / LAYANAN -->
+    <div class="container-fluid layanan pt-5 pb5" id="service">
+      <div class="container text-center">
+        <h2 class="display-3">Service</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
+          nihil id aliquam obcaecati, enim ut eius ad. Aspernatur itaque fugiat
+          eaque laborum doloribus totam at!
+        </p>
+      </div>
+    </div>
+    <div class="service-vh">
+      <div class="pt-4">
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+            <a href="./programing.html" target="_blank">
+              <div class="button">
+                <button type="button" class="btn btn-danger btn-lg">
+                  Programing
+                </button>
+              </div>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Perspiciatis nihil id aliquam obcaecati,
+            </p>
+          </div>
+          <div class="col-md-4">
+            <span class="lingkaran"
+              ><i class="fa-solid fa-palette fa-5x"></i
+            ></span>
+            <a href="./Designing.html" target="_blank">
+              <div class="button">
+                <button type="button" class="button btn btn-danger btn-lg">
+                  Designing
+                </button>
+              </div>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Perspiciatis nihil id aliquam obcaecati,
+            </p>
+          </div>
+          <div class="col-md-4">
+            <span class="lingkaran"
+              ><i class="fa-solid fa-network-wired fa-5x"></i
+            ></span>
+            <a href="./networking.html" target="_blank">
+              <div class="button">
+                <button type="button" class="btn btn-danger btn-lg">
+                  Networking
+                </button>
+              </div>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Perspiciatis nihil id aliquam obcaecati,
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="h2">
+        <h2 class="display-6 text-center">
+          Choose the service according to your needs
+        </h2>
+      </div>
+    </div>
+    <!-- PORTOFOLIO -->
+    <div class="container-fluid pt-5 pb-5 bg-light" id="portofolio">
+      <div class="container text-center">
+        <h2 class="display-3">Portofolio</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+          nostrum, atque in vitae sequi exercitationem aliquid vel ab quam sit,
+          hic magnam. Quidem est doloremque tenetur architecto dolorum
+          voluptatibus earum?
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="image/kota.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">lorem, ipsum</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  sit illum expedita quia fugit nostrum?
+                </p>
+                <a href="#about" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="image/dunia.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">lorem, ipsum</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  sit illum expedita quia fugit nostrum?
+                </p>
+                <a href="#about" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="image/duit.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">lorem, ipsum</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  sit illum expedita quia fugit nostrum?
+                </p>
+                <a href="#about" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem; border-radius: 10px">
+              <img
+                src="image/laptop.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">lorem, ipsum</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  sit illum expedita quia fugit nostrum?
+                </p>
+                <a href="#about" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="image/p4.webp"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">lorem, ipsum</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  sit illum expedita quia fugit nostrum?
+                </p>
+                <a href="#about" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="image/kece1.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">lorem, ipsum</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  sit illum expedita quia fugit nostrum?
+                </p>
+                <a href="#about" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ABOUT / TENTANG -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <h2 class="display-3 text-center" id="about">About Us</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iusto.
+        </p>
+        <div class="clearifix pt-5">
+          <img
+            src="image/about.avif"
+            class="col-md-6 float-md-end mb-3 crop-img"
+            width="300"
+            height="300"
+          />
+          <div class="text-about">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              nihil fuga laboriosam vero rem soluta!
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              nihil fuga laboriosam vero rem soluta!
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              nihil fuga laboriosam vero rem soluta!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              quae explicabo laudantium tempora nisi eum iusto fuga, maxime
+              veniam voluptatem.
+            </p>
+          </div>
+          <div class="button-contact">
+            <a href="./about.html">
+              <button type="button" class="button btn btn-danger btn-lg">
+                About Us
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- STAFF / TIM -->
+    <div class="container-fluid pt-5 pb-5 bg-light" id="staff">
+      <div class="container text-center">
+        <h2 class="display-3">Staff Us</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          molestias necessitatibus reprehenderit dolore reiciendis quae
+          consectetur pariatur eius itaque maiores.
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 text-center tim">
+            <img src="image/staff-1.png" class="rounded-circle mb-3" />
+            <h4>John Doe</h4>
+            <p>Software Developer</p>
+            <p>
+              <a href="#" class="social"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/nizh_14/" class="social"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://wa.me/6282220833878"
+                target="_blank"
+                class="social"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img src="image/staff-2.jpg" class="rounded-circle mb-3" />
+            <h4>Evren Shah</h4>
+            <p>Data Scientist</p>
+            <p>
+              <a href="#" class="social"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/nizh_14/" class="social"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://wa.me/6282220833878"
+                target="_blank"
+                class="social"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img src="image/staff-1.png" class="rounded-circle mb-3" />
+            <h4>Michael Dell</h4>
+            <p>Network Enginer</p>
+            <p>
+              <a href="#" class="social"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/nizh_14/" class="social"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://wa.me/6282220833878"
+                target="_blank"
+                class="social"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CLIENT -->
+    <div class="container-fluid client pt-5 pb-5">
+      <div class="container text-center">
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="box-image">
+            <div class="col">
+              <a href="#home"> <img src="image/windowss.png" /> </a>
+            </div>
+            <div class="col">
+              <a href="#home"> <img src="image/ig.jpg" /> </a>
+            </div>
+            <div class="col">
+              <a href="#home"> <img src="image/linkedin.jpg" /> </a>
+            </div>
+            <div class="col">
+              <a href="#home"> <img src="image/facebook.webp" /> </a>
+            </div>
+            <div class="col">
+              <a href="#home"> <img src="image/y.png" /> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT US -->
+    <div class="container-fluid pt-5 pb-5 kontak" id="contact-us">
+      <div class="container">
+        <h2 class="display-3 text-center">Contact Us</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique,
+          eaque.
+        </p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Email"
+            />
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="No. Phone"
+            />
+          </div>
+          <div class="col-md-6">
+            <textarea
+              class="form-control form-control-lg"
+              rows="5.8"
+              name=""
+            ></textarea>
+          </div>
+          <div class="col-md-3 mx-auto text-center">
+            <a href="#home">
+              <button type="button" class="btn btn-danger btn-lg">
+                send message
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ICON CONTACT -->
+    <div class="icon-contact">
+      <div class="icon">
+        <a href="https://www.instagram.com/nizh_14/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i>
+          <p>Instagram</p></a
+        >
+      </div>
+      <div class="icon">
+        <a href="https://wa.me/6282220833878" target="_blank"
+          ><i class="fa-brands fa-whatsapp"></i>
+          <p>Whatsapp</p></a
+        >
+      </div>
+      <div class="icon">
+        <a href="https://wa.me/6282220833878" target="_blank"
+          ><i class="fa-solid fa-phone"></i>
+          <p>Phone</p></a
+        >
+      </div>
+      <div class="icon">
+        <a href="#home" target="_blank"
+          ><i class="fa-brands fa-x-twitter"></i>
+          <p>X-Twitter</p></a
+        >
+      </div>
+      <div class="icon">
+        <a href="#home" target="_blank"
+          ><i class="fa-brands fa-facebook-f"></i>
+          <p>Facebook</p></a
+        >
+      </div>
+    </div>
+    <footer>
+      <p>
+        &copy; 2024 Danish.Ubaidillah.Ramadhan. Software Developer. All Rights
+        Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
